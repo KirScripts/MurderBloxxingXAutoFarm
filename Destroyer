@@ -1,0 +1,26 @@
+
+local v1 = 0
+local v2 = 99999999999999999999999999999999999999999999999999999999999999999999999999
+
+game.Workspace.No.Lansaguisantes_46.Head.CanCollide = false
+
+while true do
+
+local player = game.Players.LocalPlayer.Character
+local c = game.Workspace["Coin"]
+
+c.CFrame = player.HumanoidRootPart.CFrame
+wait(0.1)
+local player = game.Players.LocalPlayer.Character
+local l = game.Workspace.No.Lansaguisantes_46["Head"]
+player.HumanoidRootPart.CFrame = l.CFrame
+wait(0.1)
+v1 = v1 + 1
+
+if v1 == v2 then
+break
+
+
+end
+end
+
